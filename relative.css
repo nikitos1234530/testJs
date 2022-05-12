@@ -1,0 +1,449 @@
+
+  
+
+@media screen and (max-width: 1733px){
+  .slogan {
+    padding: 0px 45px 0px 47px;
+    background: url(./img/2finger.svg) 25% 100% no-repeat;
+  }
+  .slogan h2 {
+    color: white;
+    font-size: 110px;
+    line-height: 162px;
+    text-transform: uppercase;
+  }
+}
+@media screen and (max-width: 1537px){
+
+  body{
+    padding: 0;
+  }
+  .slogan {
+    padding: 0px 45px 0px 0px;
+    background: url(./img/2finger.svg) 25% 100% no-repeat;
+}
+.slogan p{
+  transform: none;
+}
+.benefits-card {
+  text-align: center;
+  width: 34%;
+  padding: 66px 87px 86px 65px;
+  background: #fff;
+  border-radius: 60px;
+}
+}
+@media screen and (max-width: 1413px){
+  body{
+    padding: 0;
+  }
+  .benefits-card {
+    padding: 66px 38px 86px 22px;
+}
+.slogan {
+  padding: 0px 45px 0px 47px;
+  background: url(./img/2finger.svg) 25% 100% no-repeat;
+}
+.slogan h2 {
+  color: white;
+  font-size: 110px;
+  line-height: 162px;
+  text-transform: uppercase;
+}
+
+}
+
+@media screen and (max-width: 1384px){
+  .checklist-right-block{
+    padding: 108px 93px 49px 92px;
+  }
+  .checklist-right-block button {
+    height: 13%;
+
+}
+}
+
+@media screen and (max-width: 1024px){
+  .article h2 {
+    padding: 110px 112px 70px 90px;
+    font-size: 60px;
+    line-height: 130%;
+}
+  .benefits-card {
+  padding: 66px 45px 59px 42px;
+}
+.slogan {
+  padding: 0px 77px 0px 47px;
+  background: black;
+}
+  .slogans-card h4 {
+  font-size: 30px;
+  line-height: 130%;
+}
+
+  .slogans-card {
+  padding: 65px 45px 60px 60px;
+}
+  .slogans-card p {
+  font-size: 20px;
+  line-height: 125%;
+}
+  .reviews {
+  padding-top: 7px;
+}
+
+  .reviews-cards__card {
+  padding: 50px 20px 106px 60px;
+}
+  .reviews-cards h4 {
+  font-size: 20px;
+  line-height: 130%;
+}
+
+  .reviews-cards h5 {
+  font-size: 20px;
+  line-height: 130%;
+}
+  .reviews-cards p {
+  font-size: 20px;
+}
+  .checklist {
+  margin-top: 79px;
+}
+
+  .checklist-left-block {
+  padding: 92px 80px 152px 54px;
+}
+  .checklist-right-block {
+  padding: 49px 52px 39px 49px;
+}
+
+  .checklist-right-block button {
+  height: 9%;
+}
+}
+
+@media screen and (max-width: 1030px){
+  .header {
+    padding: 77px 40px;
+}
+.header-title {
+  margin-bottom: 18px;
+}
+.header-title h1 {
+  font-size: 80px;
+  line-height: 130%;
+}
+.header-title button {
+  padding: 24px;
+  transform: translate(30px, -24px);
+}
+.header-subtitle {
+  font-size: 30px;
+  line-height: 130%;
+  width: 100%;
+}
+.article h2 {
+  padding: 58px 112px 55px 90px;
+  font-size: 50px;
+}
+.benefits-card img { 
+  width: 200px;
+  height: 150px;
+}
+.benefits-card h4 {
+  margin-top: 19px;
+  margin-bottom: 10px;
+  font-size: 20px;
+  line-height: 130%;
+}
+.benefits-card:nth-child(2) img {
+  height: 140px;
+}
+.slogan p {
+   transform: none; 
+}
+.slogans-card h4 {
+  font-size: 24px;
+}
+.slogans-card p {
+  font-size: 16px;
+}
+.slogans-card {
+   height:auto; 
+}
+.article h2 {
+  padding: 58px 112px 55px 90px;
+  font-size: 40px;
+}
+.reviews h2 {
+  margin-bottom: 33px;
+}
+.reviews-cards {
+  flex-direction: column;
+}
+.reviews-cards__first-block {
+  width: 100%;
+}
+.reviews-cards__second-block {
+  width: 100%;
+}
+.checklist-left-block h3 {
+  font-size: 50px;
+  line-height: 130%;
+}
+.checklist-right-block p {
+  
+  font-size: 10px;
+  line-height: 130%;
+  margin-bottom: 10px;
+}
+.checklist-right-block button {
+  height: 6%;
+  font-size: 15px;
+}
+.footer h3 {
+  font-size: 31px;
+  line-height: 130%;
+}
+.footer input {
+
+  width: 30%;
+  height: 40px;
+  margin-bottom: 44px;
+}
+.footer p {
+  font-size: 10px;
+  line-height: 130%;
+}
+.faq li {
+  padding-right: 25px;
+  font-size: 13px;
+}
+}
+
+@media screen and (max-width: 885px){
+  .benefits {
+    flex-direction: column;
+}
+.benefits-card {
+  width: 100%;
+  margin: 1px;
+}
+.nav-list li {
+  padding-right: 31px;
+}
+}
+
+@media screen and (max-width: 768px){
+.nav-list li {
+    padding-right: 16px;
+}
+.header-title h1 {
+  font-size: 50px;
+}
+.header-title button {
+  padding: 15px;
+  transform: translate(30px, -11px);
+}
+.header-subtitle {
+  font-size: 20px;
+}
+.article h2 {
+  padding: 30px 73px 29px 90px;
+  font-size: 30px;
+}
+.slogan {
+  padding: 19px 101px 20px 6px;
+  background: black;
+}
+.checklist {
+  margin-top: 160px;
+  display: flex;
+  flex-direction: column;
+}
+.checklist-left-block {
+  width: 100%;
+}
+.checklist-right-block {
+  width: 100%;
+  padding: 49px 113px 39px 93px;
+}
+.footer {
+  margin-top: 35px;
+  padding: 41px 20px 28px 20px;
+}
+.footer h3 {
+  font-size: 22px;
+}
+
+.footer input{
+  padding: 0 10px;
+}
+.footer input::placeholder{
+  font-size: 10px;
+  line-height: 130%;
+}
+.faq li {
+  padding-right: 10px;
+  font-size: 10px;
+}
+}
+
+@media screen and (max-width:650px){
+  .nav-list{
+    display: block;
+  }
+  .nav-list li {
+     padding-right: 0; 
+}
+.header-title button {
+  padding: 15px;
+  transform: translate(0px, -11px);
+  font-size: 13px;
+}
+}
+
+@media screen and (max-width: 550px){
+  .slogans-cards {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .slogans-card {
+    padding: 60px 102px 60px 71px;
+    border-radius: 60px;
+    width: 100%;
+     height: none; 
+}
+.article h2 {
+  padding: 30px 34px 1px 35px;
+  font-size: 25px;
+}
+.reviews-cards__card {
+  padding: 50px 20px 28px 20px;
+}
+.reviews button {
+  background: #3943F5;
+  border-radius: 90px;
+  border: none;
+  color: white;
+  font-size: 13px;
+  line-height: 29px;
+  margin-top: 60px;
+  width: 100%;
+  height: 58px;
+}
+}
+@media screen and (max-width: 425px){
+  .header-title h1 {
+    font-size: 30px;
+}
+.header-title button {
+  padding: 6px;
+  transform: translate(0px, -7px);
+  font-size: 13px;
+}
+.article h2 {
+  padding: 30px 0px 29px 40px;
+  font-size: 20px;
+}
+.benefits-card {
+  padding: 20px 45px 49px 30px;
+}
+.footer-title {
+  display: block;
+  justify-content: space-between;
+}
+.footer {
+  margin-top: 8px;
+  padding: 41px 20px 28px 84px;
+}
+.footer input {
+  width: auto;
+  height: 37px;
+  margin-bottom: 24px;
+}
+.copy{
+  margin-bottom: 10px;
+}
+.card__title img{
+  width: 100px;
+  height: 100px;
+
+}
+.checklist {
+  margin-top: 68px;
+  display: flex;
+  flex-direction: column;
+}
+.checklist-right-block label {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 20px;
+}
+.checklist-right-block input {
+  font-family: 'Montserrat';
+  border-radius: 60px;
+  border-color: black;
+  width: 100%;
+  height: 40px;
+  font-size: 13px;
+  padding: 0 10px;
+}
+.checklist-right-block select {
+  border: 2px solid black;
+  font-family: 'Montserrat';
+  border-radius: 60px;
+  border-color: black;
+  width: 100%;
+  height: 41px;
+  font-size: 13px;
+  padding: 0 50px 0 11px;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+}
+.checklist__select::before {
+  top: 68%;
+}
+.checklist-right-block input::placeholder{
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 20px;
+}
+}
+@media screen and (max-width:378px){
+  .header {
+    padding: 93px 13px;
+}
+.slogans-card {
+  padding: 60px 20px 60px 20px;
+  border-radius: 60px;
+  width: 100%;
+  height: none;
+}
+.checklist-left-block h3 {
+  font-size: 35px;
+  line-height: 130%;
+}
+.checklist {
+  margin-top: 60px;
+  display: flex;
+  flex-direction: column;
+}
+}
+@media screen and (max-width:320px){
+  .checklist-right-block {
+    width: 100%;
+    padding: 48px 20px 41px 20px;
+}
+.footer {
+  margin-top: 8px;
+  padding: 41px 20px 28px 32px;
+}
+}

@@ -1,0 +1,50 @@
+.footer{
+  margin-top: 80px;
+  background: #F1E0FD;
+  border-radius: 70px;
+  padding: 41px 90px 28px 90px;
+}
+
+.footer h3{
+  font-size: 44px;
+  line-height: 105.9%;
+  margin-bottom: 20px;
+}
+
+.footer input{
+  background: transparent;
+  border-color: black;
+  border-radius: 10px;
+  width: 41%;
+  height: 52px;
+  padding: 0  20px;
+  margin-bottom: 52px;
+}
+
+.footer input::placeholder{
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: black;
+}
+.footer p{
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.footer-title{
+  display: flex;
+  justify-content: space-between;
+}
+
+.faq{
+  display: flex; 
+  
+}
+
+.faq li{
+  padding-right: 22px; 
+
+}

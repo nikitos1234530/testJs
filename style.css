@@ -1,0 +1,119 @@
+@font-face {
+  font-family: 'Helvetica Now Display';
+  src: local('Helvetica Now Display Bold'), local('Helvetica-Now-Display-Bold'),
+      url('./fonts/HelveticaNowDisplay-Bold.woff2') format('woff2'),
+      url('./fonts/HelveticaNowDisplay-Bold.woff') format('woff'),
+      url('./fonts/HelveticaNowDisplay-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Helvetica Now Display';
+  src: local('Helvetica Now Display Medium'), local('Helvetica-Now-Display-Medium'),
+      url('./fonts/HelveticaNowDisplay-Medium.woff2') format('woff2'),
+      url('./fonts/HelveticaNowDisplay-Medium.woff') format('woff'),
+      url('./fonts/HelveticaNowDisplay-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Helvetica Now Display';
+  src: local('Helvetica Now Display Regular'), local('Helvetica-Now-Display-Regular'),
+      url('./fonts/HelveticaNowDisplay-Regular.woff2') format('woff2'),
+      url('./fonts/HelveticaNowDisplay-Regular.woff') format('woff'),
+      url('./fonts/HelveticaNowDisplay-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+ 
+ ul, li, img, a, h1, h2, h3, h4, h5, h6{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  color: black;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+body{
+  background-color: #E5E5E5;
+  font-family: 'Helvetica Now Display';
+  font-weight: 500;
+  padding: 0 80px;
+  max-width: 1920px;
+}
+
+.container{
+  background: black;
+  padding: 10px;
+  border-radius: 70px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+.btn:hover{
+  background: #101bf5;
+  cursor: pointer;
+}
+.header{
+  background: #fff url("./img/Saly-8.svg") 100% 100% no-repeat;
+  border-radius: 60px;
+  padding: 67px 104px 80px;
+}
+
+.header-nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-list{
+  display: flex;
+  color: black;
+}
+
+.nav-list li{
+  padding-right: 41px;
+}
+
+.header-title{
+  margin-top: 101px;
+  margin-bottom: 181px;
+}
+
+
+.header-title h1{
+  font-size: 110px;
+  font-weight: 500;
+  line-height: 104.9%;
+  text-transform: uppercase;
+}
+
+
+.header-title button{
+  display:inline-block;
+  background: #3943F5;
+  border-radius: 90px;
+  border: none;
+  color: white;
+  font-size: 20px;
+  width: 53%;
+  padding: 35px;
+  transform: translate(30px, -30px)
+}
+
+.header-subtitle{
+  font-size: 40px;
+  line-height: 59px;
+  font-weight: 400;
+  width: 63%;
+}
+
+
